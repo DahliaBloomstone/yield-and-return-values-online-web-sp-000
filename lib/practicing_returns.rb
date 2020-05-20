@@ -5,7 +5,6 @@ def hello(array)
   collection = []
   while i < array.length #return value of while loop always nil.
 collection << yield(array[i])
-    yield(array[i])
     i += 1
   end
 end
