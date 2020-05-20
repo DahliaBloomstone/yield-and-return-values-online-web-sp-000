@@ -10,3 +10,4 @@ end
 
 binding.pry  #call method
 hello(["Tim", "Tom", "Jim"]) { |name| "Hi, #{name}" }
+#deleted puts, telling our method to return something else 
