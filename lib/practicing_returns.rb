@@ -3,6 +3,7 @@ require 'pry'
 def hello(array)
   i = 0
   while i < array.length #return value of while loop always nil.
+    binding.pry
     yield(array[i])
     i += 1
   end
