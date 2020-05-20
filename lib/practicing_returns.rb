@@ -7,6 +7,7 @@ def hello(array)
 collection << yield(array[i]) #push return value using yield into new collection 
     i += 1
   end
+  collection #return new collection 
 end
 
 binding.pry  #call method
