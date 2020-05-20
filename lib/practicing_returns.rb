@@ -2,9 +2,9 @@ require 'pry'
 
 def hello(array)
   i = 0
-  collection = []
+  collection = [] #empty array
   while i < array.length #return value of while loop always nil.
-collection << yield(array[i])
+collection << yield(array[i]) #push return value using yield into new collection 
     i += 1
   end
 end
